@@ -17,7 +17,7 @@
 	"uniqueId": "jgeq2fik778",
 	"objectTypes": {
 		"items": [
-			"Sprite"
+			"cosa"
 		],
 		"subfolders": []
 	},
@@ -29,8 +29,8 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1",
-			"Cesar",
+			"Escena Iker",
+			"Escena 2",
 			"Escena 3",
 			"Escena 4"
 		],
@@ -39,7 +39,7 @@
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Cesar",
+			"Hoja de eventos 2",
 			"Hoja de eventos 3",
 			"Hoja de eventos 4"
 		],
