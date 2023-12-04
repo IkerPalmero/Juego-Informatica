@@ -17,7 +17,7 @@
 	"uniqueId": "jgeq2fik778",
 	"objectTypes": {
 		"items": [
-			"Estrella"
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -29,13 +29,19 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Escena 1",
+			"Escena 2",
+			"Escena 3",
+			"Escena 4"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2",
+			"Hoja de eventos 3",
+			"Hoja de eventos 4"
 		],
 		"subfolders": []
 	},
