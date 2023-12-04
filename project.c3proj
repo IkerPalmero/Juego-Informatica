@@ -5,20 +5,10 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [
-		{
-			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
-			"author": "Scirra",
-			"bundled": false
-		}
-	],
+	"usedAddons": [],
 	"uniqueId": "jgeq2fik778",
 	"objectTypes": {
-		"items": [
-			"cosa"
-		],
+		"items": [],
 		"subfolders": []
 	},
 	"autosaveData": null,
@@ -30,18 +20,18 @@
 	"layouts": {
 		"items": [
 			"Escena Iker",
-			"Escena 2",
-			"Escena 3",
-			"Escena 4"
+			"Escena Cesar",
+			"Escena Martí",
+			"Escena Daniela"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1",
-			"Hoja de eventos 2",
-			"Hoja de eventos 3",
-			"Hoja de eventos 4"
+			"Hoja de eventos Iker",
+			"Hoja de eventos Cesar",
+			"Hoja de eventos Martí",
+			"Hoja de eventos Daniela"
 		],
 		"subfolders": []
 	},

@@ -1,5 +1,5 @@
 {
-	"name": "Escena 2",
+	"name": "Escena Cesar",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -44,5 +44,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 2"
+	"eventSheet": "Hoja de eventos Cesar"
 }
