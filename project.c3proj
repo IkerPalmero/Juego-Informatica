@@ -74,10 +74,9 @@
 			"Texto",
 			"pppp",
 			"hhhh",
-			"D_pregunta1",
-			"D_P1_opcionA",
-			"D_P1_Opciónb",
-			"D_P1_Opciónc",
+			"D_pregunta",
+			"opciónBuena",
+			"opciónMala",
 			"casilla",
 			"Seleccionador",
 			"errr",
@@ -94,14 +93,16 @@
 	"layouts": {
 		"items": [
 			"D_Menú",
-			"D_Primera pantalla"
+			"D_Primera pantalla",
+			"Segunda Pantalla"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"D_menú inicio",
-			"D_Pantalla1"
+			"D_Pantalla1",
+			"Pantalla2"
 		],
 		"subfolders": []
 	},
