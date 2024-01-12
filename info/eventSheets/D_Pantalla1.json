@@ -1,0 +1,48 @@
+{
+	"name": "D_Pantalla1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 891611731017152,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "D_P1_Opciónb"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Seleccionador",
+					"sid": 877218522350536,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "errr",
+					"sid": 583802999563936,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "vuelta",
+					"sid": 217938302010779,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				}
+			],
+			"sid": 862020444521425
+		}
+	],
+	"sid": 912661137772571
+}
