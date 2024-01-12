@@ -1,5 +1,5 @@
 {
-	"name": "Pantalla2",
+	"name": "Evento primera",
 	"events": [
 		{
 			"eventType": "block",
@@ -7,7 +7,7 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 193081366937991,
+					"sid": 573887088081211,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
@@ -19,7 +19,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "Seleccionador",
-					"sid": 861944123084610,
+					"sid": 116658006577746,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -27,21 +27,21 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 193159843231451,
+					"sid": 232303883391156,
 					"parameters": {
-						"seconds": "3.0"
+						"seconds": "1.5"
 					}
 				},
 				{
-					"id": "go-to-layout-by-name",
+					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 752026404250307,
+					"sid": 532703696154270,
 					"parameters": {
-						"layout": "\"Segunda Pantalla\""
+						"layout": "Segunda Pantalla"
 					}
 				}
 			],
-			"sid": 735993936435930
+			"sid": 507743793585973
 		},
 		{
 			"eventType": "block",
@@ -49,7 +49,7 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 868689090133209,
+					"sid": 152999909654473,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
@@ -61,7 +61,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "errr",
-					"sid": 853549563713948,
+					"sid": 181212806713357,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -69,21 +69,21 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 194475263073807,
+					"sid": 583125299794548,
 					"parameters": {
-						"seconds": "3.0"
+						"seconds": "1.5"
 					}
 				},
 				{
-					"id": "go-to-layout-by-name",
+					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 710457410234840,
+					"sid": 911181626750857,
 					"parameters": {
-						"layout": "\"D_Menú\""
+						"layout": "Menú Inicio"
 					}
 				}
 			],
-			"sid": 805490554112902
+			"sid": 357542450476346
 		},
 		{
 			"eventType": "block",
@@ -91,11 +91,53 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 393397585786716,
+					"sid": 140679447979343,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "vuelta"
+						"object-clicked": "opciónMala2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "errr2",
+					"sid": 958790960076398,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 248213369914661,
+					"parameters": {
+						"seconds": "1.5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 442940930100549,
+					"parameters": {
+						"layout": "Menú Inicio"
+					}
+				}
+			],
+			"sid": 928232384919967
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 987430811783957,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Salir"
 					}
 				}
 			],
@@ -103,14 +145,14 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 854227742299079,
+					"sid": 963181156332316,
 					"parameters": {
-						"layout": "D_Menú"
+						"layout": "Menú Inicio"
 					}
 				}
 			],
-			"sid": 213632066486894
+			"sid": 198151778846839
 		}
 	],
-	"sid": 161123295271321
+	"sid": 719809532675765
 }

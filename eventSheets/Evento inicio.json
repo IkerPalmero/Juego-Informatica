@@ -1,0 +1,32 @@
+{
+	"name": "Evento inicio",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 213976357898819,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 616868981762383,
+					"parameters": {
+						"layout": "Primera Pantalla"
+					}
+				}
+			],
+			"sid": 689580522463293
+		}
+	],
+	"sid": 446301714900699
+}

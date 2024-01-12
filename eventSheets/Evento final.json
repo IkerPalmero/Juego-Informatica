@@ -1,5 +1,5 @@
 {
-	"name": "D_menú inicio",
+	"name": "Evento final",
 	"events": [
 		{
 			"eventType": "block",
@@ -7,11 +7,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 213976357898819,
+					"sid": 980226693527877,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Start"
+						"object-clicked": "REINICIAR"
 					}
 				}
 			],
@@ -19,14 +19,14 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 834540405860217,
+					"sid": 163311325737867,
 					"parameters": {
-						"layout": "D_Primera pantalla"
+						"layout": "Menú Inicio"
 					}
 				}
 			],
-			"sid": 689580522463293
+			"sid": 131033603465154
 		}
 	],
-	"sid": 446301714900699
+	"sid": 299499099783503
 }

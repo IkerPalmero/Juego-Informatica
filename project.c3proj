@@ -35,27 +35,6 @@
 			"bundled": false
 		},
 		{
-			"type": "behavior",
-			"id": "NoSave",
-			"name": "No guardar",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "custom",
-			"name": "Personalizado",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "effect",
-			"id": "brightness",
-			"name": "Brillo",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
 			"type": "effect",
 			"id": "burn",
 			"name": "Sobreexposición",
@@ -80,7 +59,11 @@
 			"casilla",
 			"Seleccionador",
 			"errr",
-			"vuelta"
+			"Sprite",
+			"errr2",
+			"opciónMala2",
+			"Salir",
+			"REINICIAR"
 		],
 		"subfolders": []
 	},
@@ -92,17 +75,21 @@
 	},
 	"layouts": {
 		"items": [
-			"D_Menú",
-			"D_Primera pantalla",
-			"Segunda Pantalla"
+			"Menú Inicio",
+			"Primera Pantalla",
+			"Segunda Pantalla",
+			"Tercera Pantalla",
+			"Menú Final"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"D_menú inicio",
-			"D_Pantalla1",
-			"Pantalla2"
+			"Evento inicio",
+			"Evento segunda",
+			"Evento tercera",
+			"Evento primera",
+			"Evento final"
 		],
 		"subfolders": []
 	},
@@ -260,5 +247,5 @@
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
-	"firstLayout": "D_Menú"
+	"firstLayout": "Menú Inicio"
 }
