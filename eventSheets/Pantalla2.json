@@ -7,11 +7,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 783576243000356,
+					"sid": 193081366937991,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Seleccionador"
+						"object-clicked": "opciónBuena"
 					}
 				}
 			],
@@ -19,7 +19,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "Seleccionador",
-					"sid": 307209635374785,
+					"sid": 861944123084610,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -27,7 +27,7 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 404837686564787,
+					"sid": 193159843231451,
 					"parameters": {
 						"seconds": "3.0"
 					}
@@ -35,13 +35,13 @@
 				{
 					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 663315758048046,
+					"sid": 752026404250307,
 					"parameters": {
 						"layout": "\"Segunda Pantalla\""
 					}
 				}
 			],
-			"sid": 665626292861153
+			"sid": 735993936435930
 		},
 		{
 			"eventType": "block",
@@ -49,11 +49,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 600713976299516,
+					"sid": 868689090133209,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "errr"
+						"object-clicked": "opciónMala"
 					}
 				}
 			],
@@ -61,7 +61,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "errr",
-					"sid": 839507782061953,
+					"sid": 853549563713948,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -69,7 +69,7 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 329451487791831,
+					"sid": 194475263073807,
 					"parameters": {
 						"seconds": "3.0"
 					}
@@ -77,13 +77,39 @@
 				{
 					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 620915505332408,
+					"sid": 710457410234840,
 					"parameters": {
 						"layout": "\"D_Menú\""
 					}
 				}
 			],
-			"sid": 990449679741970
+			"sid": 805490554112902
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 393397585786716,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "vuelta"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 854227742299079,
+					"parameters": {
+						"layout": "D_Menú"
+					}
+				}
+			],
+			"sid": 213632066486894
 		}
 	],
 	"sid": 161123295271321
