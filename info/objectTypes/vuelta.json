@@ -1,0 +1,25 @@
+{
+	"name": "vuelta",
+	"plugin-id": "Text",
+	"sid": 390457219398123,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "custom",
+			"name": "Personalizado",
+			"sid": 174569413116252
+		},
+		{
+			"behaviorId": "NoSave",
+			"name": "NoGuardar",
+			"sid": 256265520474510
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "brightness",
+			"name": "Brillo"
+		}
+	]
+}
